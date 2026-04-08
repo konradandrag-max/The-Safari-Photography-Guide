@@ -1,6 +1,4 @@
-import { DefaultSeoProps } from 'next-seo';
-
-const config: DefaultSeoProps = {
+const config = {
   titleTemplate: '%s | The Photographer\'s Guide to Safari',
   defaultTitle: 'The Photographer\'s Guide to Safari',
   description: 'Master safari photography with expert guides, techniques, and destination reviews for wildlife photographers.',
