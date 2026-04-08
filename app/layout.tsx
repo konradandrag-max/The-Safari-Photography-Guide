@@ -52,9 +52,13 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-6 py-6">
             <div className="flex justify-between items-center">
               <a href="/" className="logo-link">
-                <svg width="24" height="28" viewBox="0 0 110 130" fill="currentColor" style={{ color: '#528519' }}>
-                  <path d="M42 2 L54 0 L64 2 L72 0 L78 4 L84 2 L90 6 L94 10 L98 8 L100 14 L102 20 L100 28 L104 34 L106 42 L108 50 L106 56 L108 62 L110 68 L108 72 L104 70 L100 74 L96 72 L92 76 L90 82 L86 88 L82 94 L78 100 L74 104 L68 108 L62 112 L56 114 L50 118 L46 122 L42 126 L38 124 L36 118 L38 112 L36 106 L32 100 L28 94 L24 88 L18 82 L14 76 L10 70 L6 62 L4 54 L2 46 L4 40 L6 34 L4 28 L8 22 L14 16 L20 12 L26 8 L32 6 L38 4 Z"/>
-                </svg>
+                <img
+                  src="/africa icon.png"
+                  alt="Africa"
+                  width="24"
+                  height="28"
+                  style={{ objectFit: 'contain' }}
+                />
                 <h1 className="text-xl font-light tracking-wide" style={{ color: '#ffffff' }}>
                   THE SAFARI PHOTOGRAPHY GUIDE
                 </h1>
