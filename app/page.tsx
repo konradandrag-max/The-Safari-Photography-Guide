@@ -43,8 +43,8 @@ export default function Home() {
 
 
       {/* Meet the Founder */}
-      <section className="max-w-7xl mx-auto px-6 py-24" style={{ borderTop: '1px solid #333333', borderLeft: '3px solid #528519', paddingLeft: '24px' }}>
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+      <section className="max-w-7xl mx-auto px-6 py-24" style={{ borderTop: '1px solid #333333' }}>
+        <div className="grid md:grid-cols-2 gap-16 items-center" style={{ borderLeft: '3px solid #528519', paddingLeft: '24px' }}>
           <div>
             <h2 className="text-3xl font-light mb-6" style={{ color: '#ffffff' }}>Meet the Founder</h2>
             <p className="text-lg font-light mb-8 leading-relaxed" style={{ color: '#cccccc' }}>
