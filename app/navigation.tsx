@@ -11,7 +11,7 @@ export default function Navigation() {
     { href: '/techniques', label: 'TECHNIQUES' },
     { href: '/equipment', label: 'EQUIPMENT' },
     { href: '/blog', label: 'BLOG' },
-    { href: '/founder', label: 'FOUNDER' },
+    { href: '/team', label: 'TEAM' },
   ];
 
   return (
