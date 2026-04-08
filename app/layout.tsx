@@ -42,6 +42,8 @@ export default function RootLayout({
             a.link-accent:hover { opacity: 0.7; }
             button.btn-primary { background-color: #528519; transition: opacity 0.2s; }
             button.btn-primary:hover { opacity: 0.9; }
+            a.logo-link { text-decoration: none; cursor: pointer; transition: opacity 0.2s; display: flex; align-items: center; gap: 12px; }
+            a.logo-link:hover { opacity: 0.7; }
           `}
         </style>
       </head>
@@ -49,7 +51,7 @@ export default function RootLayout({
         <nav className="border-b" style={{ borderColor: '#333333' }}>
           <div className="max-w-7xl mx-auto px-6 py-6">
             <div className="flex justify-between items-center">
-              <a href="/" className="flex items-center gap-3" style={{ textDecoration: 'none', cursor: 'pointer', transition: 'opacity 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.opacity = '0.7'} onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}>
+              <a href="/" className="logo-link">
                 <svg width="28" height="28" viewBox="0 0 100 100" fill="currentColor" style={{ color: '#528519' }}>
                   <path d="M50 10 L65 15 L70 25 L75 20 L78 30 L80 25 L82 35 L80 45 L85 55 L83 65 L75 70 L70 75 L65 72 L60 80 L55 75 L50 78 L45 75 L40 80 L35 72 L30 75 L25 70 L17 65 L15 55 L20 45 L18 35 L20 25 L22 30 L25 20 L30 25 L35 15 Z"/>
                 </svg>
