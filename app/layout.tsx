@@ -49,9 +49,14 @@ export default function RootLayout({
         <nav className="border-b" style={{ borderColor: '#333333' }}>
           <div className="max-w-7xl mx-auto px-6 py-6">
             <div className="flex justify-between items-center">
-              <h1 className="text-xl font-light tracking-wide" style={{ color: '#ffffff' }}>
-                THE SAFARI PHOTOGRAPHY GUIDE
-              </h1>
+              <div className="flex items-center gap-3">
+                <svg width="28" height="28" viewBox="0 0 100 100" fill="currentColor" style={{ color: '#528519' }}>
+                  <path d="M50 10 L65 15 L70 25 L75 20 L78 30 L80 25 L82 35 L80 45 L85 55 L83 65 L75 70 L70 75 L65 72 L60 80 L55 75 L50 78 L45 75 L40 80 L35 72 L30 75 L25 70 L17 65 L15 55 L20 45 L18 35 L20 25 L22 30 L25 20 L30 25 L35 15 Z"/>
+                </svg>
+                <h1 className="text-xl font-light tracking-wide" style={{ color: '#ffffff' }}>
+                  THE SAFARI PHOTOGRAPHY GUIDE
+                </h1>
+              </div>
               <Navigation />
             </div>
           </div>
