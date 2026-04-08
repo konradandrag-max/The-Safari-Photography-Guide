@@ -59,8 +59,7 @@ export default function RootLayout({
                   height="28"
                   style={{
                     objectFit: 'contain',
-                    filter: 'brightness(0.9) contrast(1.1)',
-                    mixBlendMode: 'multiply'
+                    mixBlendMode: 'darken'
                   }}
                 />
                 <h1 className="text-xl font-light tracking-wide" style={{ color: '#ffffff' }}>
