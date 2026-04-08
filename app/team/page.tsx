@@ -10,10 +10,7 @@ export default function Team() {
     <>
       <style precedence="default" href="team-page">
         {`
-          a.link-accent { color: #528519; transition: opacity 0.2s; }
-          a.link-accent:hover { opacity: 0.7; }
           .section-heading { border-left: 3px solid #528519; padding-left: 12px; }
-          .accent-list li:before { content: "▸"; color: #528519; margin-right: 8px; }
           .member-card { border: 1px solid #333333; padding: 24px; margin-bottom: 24px; transition: background-color 0.2s; }
           .member-card:hover { background-color: #1a1a1a; }
           .social-icon { display: inline-block; margin-right: 12px; }
@@ -21,6 +18,7 @@ export default function Team() {
           .social-icon a:hover { background-color: #528519; color: #ffffff; }
         `}
       </style>
+
       <section style={{ aspectRatio: '2.5/1', position: 'relative', display: 'flex', alignItems: 'center', overflow: 'hidden', marginBottom: '60px' }}>
         <Image
           src="/team-header.jpg"
