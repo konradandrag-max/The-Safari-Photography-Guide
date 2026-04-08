@@ -53,14 +53,11 @@ export default function RootLayout({
             <div className="flex justify-between items-center">
               <a href="/" className="logo-link">
                 <img
-                  src="/africa icon.png"
+                  src="/africa-icon.png"
                   alt="Africa"
                   width="24"
                   height="28"
-                  style={{
-                    objectFit: 'contain',
-                    mixBlendMode: 'darken'
-                  }}
+                  style={{ objectFit: 'contain' }}
                 />
                 <h1 className="text-xl font-light tracking-wide" style={{ color: '#ffffff' }}>
                   THE SAFARI PHOTOGRAPHY GUIDE
